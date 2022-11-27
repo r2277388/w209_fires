@@ -22,9 +22,5 @@ def viz3():
 def viz4():
     return render_template('viz4.html')
 
-@app.route("/firepic")
-def fire():
-    return render_template('fire.html')
-
 if __name__ == '__main__':
     app.run(debug=True)
