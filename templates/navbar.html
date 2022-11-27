@@ -1,0 +1,27 @@
+<!-- see video: https://www.youtube.com/watch?v=y62Dvo2Ml7o -->
+<!-- Bootstrap: Copied from this page: https://getbootstrap.com/docs/4.3/components/navbar/-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="{{url_for('home')}}">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="{{url_for('viz1')}}">Viz1</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{{url_for('viz2')}}">Viz3</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{{url_for('viz3')}}">Viz3</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{{url_for('viz4')}}">Viz4</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{{url_for('fire')}}">Wildfire</a>
+        </li>
+    </ul>
+    </div>
+  </nav>
